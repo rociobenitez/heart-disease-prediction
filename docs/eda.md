@@ -1,6 +1,6 @@
 # Exploratory Data Analysis (EDA)
 
-## **Resumen del Dataset**
+## **Resumen del dataset**
 
 - **Número total de registros**: 303.
 - **Número total de características**: 14 (13 independientes + 1 objetivo).
@@ -38,7 +38,7 @@
      - **3 (asintomático)**: Relación más fuerte con la enfermedad cardíaca (`target=1`).
    - **Conclusión**: El tipo de dolor en el pecho es una característica clave para diferenciar entre pacientes con y sin enfermedad.
 
-<img src="../assets/eda/categorical_countplot.png" alt="Análisis de características categóricas" width="700" style="padding:16px; margin: 24px auto; background: white; display:flex; justify-content:center;">
+<img src="../assets/eda/categorical_countplot.png" alt="Análisis de características categóricas" width="800" style="padding:16px; margin: 24px auto; background: white; display:flex; justify-content:center;">
 
 ### **Características numéricas**
 
@@ -56,7 +56,7 @@
 4. **`oldpeak` (Depresión ST)**:
    - Valores elevados correlacionados con la presencia de enfermedad.
 
-<img src="../assets/eda/numerical_histplot.png" alt="Análisis de características numéricas" width="700" style="padding:16px; margin: 16px auto; background: white;">
+<img src="../assets/eda/numerical_histplot.png" alt="Análisis de características numéricas" width="800" style="margin: 16px auto; background: white;">
 
 ## **Relaciones clave**
 
@@ -71,9 +71,9 @@
 4. **Depresión ST (`oldpeak`) vs. `target`**:
    - Valores elevados están correlacionados con la presencia de enfermedad cardíaca.
 
-<img src="../assets/eda/categorical_target_countplot.png" alt="Análisis de la relación target con características categóricas" width="600" style="padding:16px; margin: 24px auto 16px; background: white;">
+<img src="../assets/eda/categorical_target_countplot.png" alt="Análisis de la relación target con características categóricas" width="700" style="padding:16px; margin: 24px auto 16px; background: white;">
 
-<img src="../assets/eda/numerical_target_hist.png" alt="Análisis de la relación target con características numéricas" width="600" style="padding:16px; margin: 16px auto; background: white;">
+<img src="../assets/eda/numerical_target_hist.png" alt="Análisis de la relación target con características numéricas" width="700" style="padding:16px; margin: 16px auto; background: white;">
 
 ## **Valores atípicos**
 
@@ -96,9 +96,9 @@
   - **`oldpeak` y `slope`**: Fuerte correlación negativa (-0.58).
   - **`thalach` y `age`**: Correlación negativa moderada (-0.40).
 
-<img src="../assets/eda/correlation_matrix.png" alt="Matriz de correlación" width="600" style="padding:16px; margin-bottom: 16px; background: white;">
+<img src="../assets/eda/correlation_matrix.png" alt="Matriz de correlación" width="600" style="margin-bottom: 16px; background: white;">
 
-# **Conclusión general del EDA**
+## **Conclusión general del EDA**
 
 1. **Distribución de datos**:
    - La variable objetivo está balanceada, pero el dataset está desbalanceado en cuanto a género (68% hombres vs. 32% mujeres).
