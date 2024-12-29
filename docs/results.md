@@ -35,22 +35,22 @@ La importancia de las características calculada con Random Forest muestra que l
 
 **Sin estratificación:**
 
-<img src="../assets/modeling/feature_importance_rf.png" alt="Importancia de Características - Random Forest" width="600" style="padding-bottom:16px; margin: 8px auto; background: white;">
+<img src="../assets/modeling/feature_importance_rf.png" alt="Importancia de Características - Random Forest" width="600" style="padding-bottom:16px; margin: 24px auto; background: white;">
 
 **Con estratificación:**
 
-<img src="../assets/modeling/stratify/feature_importance_rf.png" alt="Importancia de Características - Random Forest" width="600" style="padding-bottom:16px; margin: 8px auto; background: white;">
+<img src="../assets/modeling/stratify/feature_importance_rf.png" alt="Importancia de Características - Random Forest" width="600" style="padding-bottom:16px; margin: 32px auto; background: white;">
 
 ### Regresión Logística
 Los coeficientes del modelo de Regresión Logística muestran cómo cada característica afecta la probabilidad de predecir la presencia de enfermedad cardíaca. Las características más relevantes son `sex`, `cp`, `thal`, `exang`y `ca`:
 
 **Sin estratificación:**
 
-<img src="../assets/modeling/feature_importance_logreg.png" alt="Coeficientes - Logistic Regression" width="500" style="padding-bottom:16px; margin-bottom: 8px; background: white;">
+<img src="../assets/modeling/feature_importance_logreg.png" alt="Coeficientes - Logistic Regression" width="500" style="padding-bottom:16px; margin-bottom: 24px; background: white;">
 
 **Con estratificación:**
 
-<img src="../assets/modeling/stratify/feature_importance_logreg.png" alt="Coeficientes - Logistic Regression" width="500" style="padding-bottom:16px; margin-bottom: 8px; background: white;">
+<img src="../assets/modeling/stratify/feature_importance_logreg.png" alt="Coeficientes - Logistic Regression" width="500" style="padding-bottom:16px; margin-bottom: 32px; background: white;">
 
 ## Combinación de Modelos
 
